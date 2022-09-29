@@ -1,6 +1,7 @@
 from django.contrib import admin
 from .models import customer
 
+
 # Register your models here.
 class CustomerAdmin(admin.ModelAdmin):
     list_display = (
@@ -9,4 +10,6 @@ class CustomerAdmin(admin.ModelAdmin):
         'created',
         'updated'
     )
+
+
 admin.site.register(customer, CustomerAdmin)
