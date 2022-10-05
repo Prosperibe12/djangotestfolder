@@ -2,12 +2,12 @@ name: Django Tests
 
 on:
   push:
-    branches:
+    branch:
       - master
   
   pull_request:
-    branches:
-      - master
+    branch:
+      - master 
 
 # on:
 #   schedule:
